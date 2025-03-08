@@ -1,0 +1,273 @@
+<!--
+
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+
+202065180 Cruz Esparza Alisson.
+--> 
+<html>
+    <head>
+        <!--Este documento es elaborado con la herramienta de brackets.io por el desarrollador Alisson Cruz Esparza-->
+        <title>Listas en html</title>
+            <style type="text/css">
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            header,nav,main,footer{
+                width: 1200px;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header{
+                height: 50px;
+                background-color: darkblue;
+                color: aliceblue;
+            }
+            nav{
+                height: auto;
+                background-color: royalblue;
+            }
+            main{
+                height: auto;
+                background-color: lightblue;
+            }
+            footer{
+                height: 30px;
+                background-color: darkblue;
+                color: aliceblue;
+            }
+            section{
+                width: 900px;
+                height: auto;
+                background-color: gainsboro;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            ul,ol{
+                padding-left: 30px;
+                padding-top: 20px;
+                padding-bottom: 20px;            
+            }
+            
+            main section dl{
+                /*width: 800px;*/
+            }
+            main section dl dt{
+                font-weight: bold;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            h1,h6{
+                text-align: center;
+            }
+            h2{
+                margin-bottom: 20px;    
+            }
+            
+        nav ul li {
+            list-style-type: none;
+            background-color: powderblue;
+            width: 10%;
+            height: 30px;
+            min-width: 100px;
+            display: inline-block;
+            margin:10px;
+            display:inline-block;
+            padding: 5px;
+            border-radius: 10px;
+              }
+            
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: deeppink;
+        }
+        a:visited{
+            color: darkblue;
+            
+        }
+        a:hover{
+            color: dodgerblue;
+        }
+        
+        nav ul li:hover{
+            width: 12%;
+            background-color:lightcoral;
+        }
+        nav ul li a:hover{
+            color: bisque;
+        }
+    
+        main nav{
+                width: 40%;
+        }
+        main nav ul li{ 
+            width: auto;
+        }
+   
+            
+img{
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+    }
+            
+h1{
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+    text-align: left;
+    font-size: 50px;
+    }
+    
+div{
+    width: 15%;
+    display: inline-block;
+    margin-right: 50px;
+    }        
+        </style>
+    </head>
+    <body>
+        <!--La etiqueta header debe contener....-->
+        <Header>
+            <div><a href="../index.html"><img id="img_icon" src="../images/casitab.png"></a></div>
+            <h1>LISTAS EN HTML</h1>
+        </Header>
+        <!--La etiqueta nav debe contener...-->
+        <nav>
+            <ul>
+                <li><a href="../html/formatos-texto.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/enlaces-c.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audios.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <!--La etiqueta main debe contener...-->
+        <main>
+            <section>
+                <h2>Listas desordenadas</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus pulvinar venenatis. Etiam eget nisi varius, convallis odio rhoncus, lobortis nulla. Quisque suscipit dictum eros a pellentesque. Mauris non neque eget libero consequat suscipit. Maecenas imperdiet non velit a vestibulum. Sed faucibus lobortis lobortis. Donec et eros ante. Duis facilisis eu ante auctor aliquet. Fusce mauris purus, placerat id orci sit amet, aliquam scelerisque turpis. In sodales urna ut augue euismod fermentum. Nulla finibus, elit eu vehicula cursus, libero odio pellentesque mauris, sed ornare turpis dui ac lacus. Aenean fringilla orci quis ipsum finibus, at efficitur purus egestas. Quisque ut.</p>
+                <ul>
+                    <li>Argentina</li>
+                    <li>Colombia</li>
+                    <li>Venezuela</li>
+                    <li>España</li>
+                    <li>Inglaterra</li>
+                    <li>Francia</li>
+                    <li>Italia</li>
+                    <li>Mexico</li>
+                    <li>Brasil</li>
+                    <li>Puerto rico</li>
+                    <li>Japon</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Listas ordenadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nisl nec metus lobortis pulvinar eu a felis. Etiam vitae neque id nisi fringilla mollis. Donec pellentesque libero nec elit pharetra pulvinar. Curabitur blandit non tortor nec auctor. Vivamus tempor euismod dolor, eget dapibus velit placerat quis. Nunc non sapien nec urna luctus dignissim et et nunc. Aenean euismod massa pretium nunc commodo faucibus sed ac est. Vivamus imperdiet egestas lacinia. Curabitur tincidunt bibendum ultrices. Vestibulum feugiat facilisis lorem, ac.</p>
+                <ol>
+                    <li>Jalisco</li>
+                    <li>Veracruz</li>
+                    <li>Guanajuato</li>
+                    <li>Colima</li>
+                    <li>Michoacan</li>
+                    <li>Puebla</li>
+                    <li>Oaxaca</li>
+                    <li>Baja california</li>
+                    <li>Quintana Roo</li>
+                    <li>Queretaro</li>
+                    
+                </ol>
+            </section>
+            <section>
+                <h2>Listas mixtas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec lacus eu neque suscipit cursus. Sed quis consectetur risus. Donec ut iaculis mi, non blandit leo. Morbi commodo placerat augue at rutrum. Nam varius, ipsum vel feugiat semper, augue quam congue magna, eu congue lectus justo quis lectus. Aenean neque risus, suscipit tincidunt consectetur ut, congue ut nibh. Sed luctus mollis sapien ac porttitor. Aenean cursus, ligula at mollis egestas, felis lorem tempus ligula, et efficitur lacus ex lobortis justo. Nulla volutpat nisl quis faucibus hendrerit. Praesent volutpat ac diam placerat tincidunt. Curabitur tortor massa, ultrices ac est vel, lobortis molestie mi. Phasellus interdum hendrerit risus, a accumsan justo dictum vel. Suspendisse efficitur orci at ligula posuere congue blandit luctus dui. Duis semper feugiat lacus a sodales. Nulla sagittis.</p>
+            <ol>
+                <li>Tlaxcala
+                    <ul>
+                        <li>Santa Ana Chiutempan</li>
+                        <li>San Luis Teolocholco</li>
+                        <li> Concla de Juan Cuamatzil</li>
+                        <li>Carmen Aztama</li>
+                        <li>Apizaco</li>
+                        <li>Tetla de ocampo</li>
+                    </ul>
+                </li>
+                <li>Jalisco
+                    <ul>
+                        <li>Puero Vallarta</li>
+                        <li>Cabo Corrientes</li>
+                        <li>Tequila</li>
+                        <li>Tlaquepalque</li>
+                    </ul>
+                </li>
+                <li>Puebla
+                    <ul>
+                        <li>Atlixco</li>
+                        <li>Cholula</li>
+                        <li>Acajete</li>
+                        <li>Chignahuapan</li>
+                        <li>Zacatlan</li>
+                        <li>Amozoc</li>
+                        <li>Huachinango</li>
+                        <li>Cuatlazingo</li>
+                    </ul>
+                </li>
+                <li>Veracruz
+                    <ul>
+                        <li>Tierra blanca</li>
+                        <li>Boca del Rio</li>
+                        <li>Cuatzacoalco</li>
+                        <li>Poza Rica</li>
+                    </ul>
+                </li>
+                <li>Oaxaca
+                    <ul>
+                        <li>Huajapan</li>
+                        <li>Hierve el Agua</li>
+                        <li>San Juan Chamula</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section> 
+            <h2>Lista de descripcion</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie orci et molestie auctor. Ut vulputate sollicitudin mi, sit amet semper tellus suscipit ut. Maecenas facilisis ornare mauris quis sagittis. Etiam in augue dui. Sed maximus porta ullamcorper. Nunc convallis diam non eros venenatis cursus. In pharetra felis facilisis, tincidunt lectus a, fermentum nunc. Nulla lacus risus, pellentesque non turpis.</p>
+            <dl>
+                <dt>Republica</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie orci et molestie auctor. Ut vulputate sollicitudin mi, sit amet semper tellus suscipit ut. Maecenas facilisis ornare mauris quis sagittis. Etiam in augue dui. Sed maximus porta ullamcorper. Nunc convallis diam non eros venenatis cursus. In pharetra felis facilisis, tincidunt lectus a, fermentum nunc. Nulla lacus risus, pellentesque non turpis.</dd>
+                <dt>Estado</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie orci et molestie auctor. Ut vulputate sollicitudin mi, sit amet semper tellus suscipit ut. Maecenas facilisis ornare mauris quis sagittis. Etiam in augue dui. Sed maximus porta ullamcorper. Nunc convallis diam non eros venenatis cursus. In pharetra felis facilisis, tincidunt lectus a, fermentum nunc. Nulla lacus risus, pellentesque non turpis.</dd>
+                <dt>Region</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum urna et scelerisque fringilla. Praesent pulvinar ac augue ut imperdiet. Donec in sagittis nisl, eu consectetur nisi. Sed blandit augue non ipsum fringilla, sit amet egestas nibh tempor. Fusce auctor nulla vitae fringilla scelerisque. Phasellus leo nisl, dapibus eget consequat a, posuere non urna. Vestibulum finibus hendrerit erat eu egestas. Aenean felis dui, commodo interdum turpis at, rhoncus laoreet enim. Curabitur lacinia ipsum eu sapien ullamcorper iaculis. Vivamus sit amet augue eget lorem gravida egestas nec ut quam. Nullam vel augue eget arcu sagittis ullamcorper a ac lorem. Vivamus at.</dd>
+                <dt>Municipio</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum urna et scelerisque fringilla. Praesent pulvinar ac augue ut imperdiet. Donec in sagittis nisl, eu consectetur nisi. Sed blandit augue non ipsum fringilla, sit amet egestas nibh tempor. Fusce auctor nulla vitae fringilla scelerisque. Phasellus leo nisl, dapibus eget consequat a, posuere non urna. Vestibulum finibus hendrerit erat eu egestas. Aenean felis dui, commodo interdum turpis at, rhoncus laoreet enim. Curabitur lacinia ipsum eu sapien ullamcorper iaculis. Vivamus sit amet augue eget lorem gravida egestas nec ut quam. Nullam vel augue eget arcu sagittis ullamcorper a ac lorem. Vivamus at.</dd>
+                <dt>Junta Auxiliar</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum urna et scelerisque fringilla. Praesent pulvinar ac augue ut imperdiet. Donec in sagittis nisl, eu consectetur nisi. Sed blandit augue non ipsum fringilla, sit amet egestas nibh tempor. Fusce auctor nulla vitae fringilla scelerisque. Phasellus leo nisl, dapibus eget consequat a, posuere non urna. Vestibulum finibus hendrerit erat eu egestas. Aenean felis dui, commodo interdum turpis at, rhoncus laoreet enim. Curabitur lacinia ipsum eu sapien ullamcorper iaculis. Vivamus sit amet augue eget lorem gravida egestas nec ut quam. Nullam vel augue eget arcu sagittis ullamcorper a ac lorem. Vivamus at.</dd>
+                <dt>Delegacion</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum urna et scelerisque fringilla. Praesent pulvinar ac augue ut imperdiet. Donec in sagittis nisl, eu consectetur nisi. Sed blandit augue non ipsum fringilla, sit amet egestas nibh tempor. Fusce auctor nulla vitae fringilla scelerisque. Phasellus leo nisl, dapibus eget consequat a, posuere non urna. Vestibulum finibus hendrerit erat eu egestas. Aenean felis dui, commodo interdum turpis at, rhoncus laoreet enim. Curabitur lacinia ipsum eu sapien ullamcorper iaculis. Vivamus sit amet augue eget lorem gravida egestas nec ut quam. Nullam vel augue eget arcu sagittis ullamcorper a ac lorem. Vivamus at.</dd>
+                <dt>Colonia</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum urna et scelerisque fringilla. Praesent pulvinar ac augue ut imperdiet. Donec in sagittis nisl, eu consectetur nisi. Sed blandit augue non ipsum fringilla, sit amet egestas nibh tempor. Fusce auctor nulla vitae fringilla scelerisque. Phasellus leo nisl, dapibus eget consequat a, posuere non urna. Vestibulum finibus hendrerit erat eu egestas. Aenean felis dui, commodo interdum turpis at, rhoncus laoreet enim. Curabitur lacinia ipsum eu sapien ullamcorper iaculis. Vivamus sit amet augue eget lorem gravida egestas nec ut quam. Nullam vel augue eget arcu sagittis ullamcorper a ac lorem. Vivamus at.</dd>
+                <dt>Fraccionamiento</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum urna et scelerisque fringilla. Praesent pulvinar ac augue ut imperdiet. Donec in sagittis nisl, eu consectetur nisi. Sed blandit augue non ipsum fringilla, sit amet egestas nibh tempor. Fusce auctor nulla vitae fringilla scelerisque. Phasellus leo nisl, dapibus eget consequat a, posuere non urna. Vestibulum finibus hendrerit erat eu egestas. Aenean felis dui, commodo interdum turpis at, rhoncus laoreet enim. Curabitur lacinia ipsum eu sapien ullamcorper iaculis. Vivamus sit amet augue eget lorem gravida egestas nec ut quam. Nullam vel augue eget arcu sagittis ullamcorper a ac lorem. Vivamus at.</dd>
+            </dl>
+        </section>
+        </main>
+        <!--La etiqueta footer debe contener...-->
+        <footer>
+            <h6>Elaborado por Alisson Cruz Esparza</h6>
+        </footer>
+    </body>
+</html> 

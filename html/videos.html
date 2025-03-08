@@ -1,0 +1,120 @@
+<!--
+
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+
+202065180 Cruz Esparza Alisson.
+
+--> 
+<html>
+<head>
+    <title>Videos en HTML</title>
+    <link rel="stylesheet" href="../css/style.css"type="text/css">
+    <style>
+    
+    header,footer{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    color: aliceblue;
+        }
+    nav{
+    background-color:lightblue;
+   }
+    main{
+    background-color: lightsteelblue;
+    height: auto;
+        }
+    section{
+        background-color: powderblue;
+        }
+        h2{
+            color: rebeccapurple;
+        }
+        
+img{
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+    }
+            
+h1{
+    width: 80%;
+    display: inline-block;
+    text-align:left;
+    }
+    
+div{
+    width: 15%;
+    display: inline-block;
+    margin-right: 50px;
+    }   
+    </style>
+</head>
+<body>
+    <header>
+        <div><a href="../index.html"><img id="img_icon" src="../images/casitab.png"></a></div>
+        <h1>VIDEOS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../html/formatos-texto.html">Formatos</a></li>
+            <li><a href="../html/listas.html">Listas</a></li>
+            <li><a href="../html/enlaces-c.html">Enlaces</a></li>
+            <li><a href="../html/tablas.html">Tablas</a></li>
+            <li><a href="../html/imagenes.html">Imagenes</a></li>
+            <li><a href="../html/audios.html">Audio</a></li>
+            <li><a href="../html/videos.html">Video</a></li>
+            <li><a href="../html/formularios.html">Formularios</a></li>
+        </ul>
+    </nav>
+    <main class="box_videos">
+        <section>
+            <h2>Video</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vero illo excepturi laborum, repellendus assumenda deleniti neque, natus laudantium aut culpa amet, repudiandae quasi officiis facere tempore voluptatum cum minus. Doloribus iusto dolor porro, aliquam ipsum, nisi officia, quas error quae recusandae inventore illum soluta quod voluptatem. Praesentium dicta odio reiciendis tenetur possimus, harum delectus aspernatur modi, rem hic voluptatibus eligendi ad eveniet consectetur dolorum quibusdam labore dolorem ipsa mollitia recusandae. Voluptas reiciendis eum facilis ratione dolorum, omnis, qui, harum doloremque ab nesciunt dignissimos. Maxime aliquid perferendis, rerum error ratione quis reprehenderit, cum eveniet maiores id nihil ducimus nam, fuga!</p>
+            <video controls>
+                <source src="../videos/medusasrosas.mp4" type="video/mp4">
+                El navegador no soporta el formato video.
+            </video>
+        </section>
+        <section>
+            <h2>Video con reproducciòn automatica y loop</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet deserunt optio dolor nulla itaque, quod ullam, dignissimos aperiam. Quis, iste. Modi consectetur excepturi natus nesciunt a ratione. Delectus sequi, voluptatem tenetur. Iusto laboriosam aspernatur, perspiciatis dolorem voluptatum quae minima enim alias beatae, atque quam eveniet vero magni deserunt. Ipsum harum optio voluptas et cupiditate magnam molestias beatae dolore illo assumenda omnis quam adipisci quo ea ex neque quis dolorem, nisi sapiente voluptate atque nostrum dignissimos sed praesentium? Voluptate laudantium, dignissimos repellat qui sint molestias, blanditiis, consectetur nemo obcaecati maiores officia quae ratione magnam molestiae voluptatem! Dolorum, quae nobis impedit soluta.</p>
+            <video controls autoplay muted loop>
+               <source src="../videos/tiburon-ballena.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <h2>Video sin controles</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident reprehenderit neque non, repellendus possimus, nemo corrupti rerum doloremque quidem natus obcaecati sapiente quisquam vero ad earum. Quas odio dolor vitae tempora iste vel repudiandae minus, qui reprehenderit, eligendi nesciunt quis, voluptatum soluta adipisci tempore recusandae, ullam eos velit harum asperiores numquam inventore porro molestias. Illum reprehenderit debitis alias, minus quod ex magnam aliquam tenetur totam eaque, doloribus fugiat repudiandae eligendi nisi nihil. Deserunt impedit adipisci veritatis perspiciatis, aliquam nobis quisquam accusantium ex sunt alias, dicta vero quo enim corporis temporibus vel labore expedita nisi quos provident et nihil necessitatibus maxime!</p>
+              <video autoplay loop muted>
+                <source src="../videos/manta.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <h2>Video con poster</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At veniam doloribus fugiat dolores dignissimos itaque optio inventore architecto, consequuntur in pariatur magnam, nihil voluptatibus, quam. Sint assumenda deleniti, molestias, dolor voluptatem debitis. Aliquam, error ratione qui consectetur ea, provident quasi obcaecati. Incidunt asperiores perspiciatis porro cupiditate illo, mollitia enim culpa, praesentium molestiae magnam corporis quisquam, nihil obcaecati tenetur similique ex. Harum fugit, quae aliquam. Earum voluptates obcaecati neque pariatur facilis corporis, quas, laboriosam porro, consequuntur praesentium, architecto! Unde, consequatur, beatae. Explicabo a nemo quos amet culpa quidem. Architecto impedit, vel earum quos ea odio autem voluptatem modi assumenda recusandae excepturi.</p>
+            <video controls poster="../images/tiburoncito%20ballenita.jpg">
+                <source src="../videos/medusaazul.mp4" type="video/mp4">
+            </video>
+        </section>
+     <section>
+            <h2>Video de repositorio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet deserunt optio dolor nulla itaque, quod ullam, dignissimos aperiam. Quis, iste. Modi consectetur excepturi natus nesciunt a ratione. Delectus sequi, voluptatem tenetur. Iusto laboriosam aspernatur, perspiciatis dolorem voluptatum quae minima enim alias beatae, atque quam eveniet vero magni deserunt. Ipsum harum optio voluptas et cupiditate magnam molestias beatae dolore illo assumenda omnis quam adipisci quo ea ex neque quis dolorem, nisi sapiente voluptate atque nostrum dignissimos sed praesentium? Voluptate laudantium, dignissimos repellat qui sint molestias, blanditiis, consectetur nemo obcaecati maiores officia quae ratione magnam molestiae voluptatem! Dolorum, quae nobis impedit soluta.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/D870rEw0lNY?si=cbsqc_jP0KOWmCMW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section>
+            <h2>Video lista de reproduccion de videos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident reprehenderit neque non, repellendus possimus, nemo corrupti rerum doloremque quidem natus obcaecati sapiente quisquam vero ad earum. Quas odio dolor vitae tempora iste vel repudiandae minus, qui reprehenderit, eligendi nesciunt quis, voluptatum soluta adipisci tempore recusandae, ullam eos velit harum asperiores numquam inventore porro molestias. Illum reprehenderit debitis alias, minus quod ex magnam aliquam tenetur totam eaque, doloribus fugiat repudiandae eligendi nisi nihil. Deserunt impedit adipisci veritatis perspiciatis, aliquam nobis quisquam accusantium ex sunt alias, dicta vero quo enim corporis temporibus vel labore expedita nisi quos provident et nihil necessitatibus maxime!</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=7CvkH_MbfkgNz-jJ&amp;list=PLw1Qzo2BqAai-ncj9c1gaKsEHUCGo92f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        
+    </main>
+    <footer>
+        <h6>Elaborado por Alisson Cruz Esparza</h6>
+    </footer>
+</body>
+</html>

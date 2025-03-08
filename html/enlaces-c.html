@@ -1,0 +1,186 @@
+<!--
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+
+202065180 Cruz Esparza Alisson.
+--> 
+<html>
+    <head>
+        <title>Enlaces de html</title>
+        <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header,nav,main,footer {
+            width: 100%;
+            background-color: deeppink;
+            color: papayawhip;
+            padding: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        header{
+           height: auto;
+            }
+        nav{
+            height:auto;
+            background-color: hotpink;
+        }
+        main{
+            height: auto;
+             background-color:lightpink
+        }
+        footer{
+            height: 40px;
+        }
+        section{
+            width: 65%;
+            height: 400px;
+            background-color: blanchedalmond;
+            color:palevioletred;
+            margin-bottom: 30px;
+            padding: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow-y:auto;
+        }
+        h2{
+            margin-bottom: 20px;
+        }
+        header h1,footer h6 {
+            text-align: center;
+        }
+        
+        ul{
+            text-align: center;
+        }
+        ul li{
+            width:10%;
+            height: 30px;
+            background-color: blanchedalmond;
+        
+            color:palevioletred;
+           list-style-type: none;
+            display: inline-block;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-radius: 10px;
+           
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: deeppink;
+        }
+        a:visited{
+            color: deeppink;
+            
+        }
+       
+        a:hover{
+            color: dodgerblue;
+        }
+        
+        nav ul li:hover{
+            width: 12%;
+            background-color: lightcoral;
+        }
+        nav ul li a:hover{
+            color: bisque;
+        }
+    
+        p{
+                margin-bottom: 20px;
+                text-align: justify;
+        }
+        main nav{
+                width: 40%;
+        }
+        main nav ul li{ 
+            width: 20%;
+        }
+        main nav ul li:hover{
+                width: 12%;
+            }
+  
+img{
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+    }
+h1{
+    width:auto;
+    display: inline-block;
+    text-align: center;
+    text-align: left;
+    font-size: 80px;
+    }
+div{
+    width: 15%;
+    display: inline-block;
+    margin-right: 50px;
+    }
+            
+    </style>
+    </head> 
+    <body> 
+        <header>
+               <div><a href="../index.html"><img id="img_icon" src="../images/casitab.png"></a></div>
+                <h1>ENLACES EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../html/formatos-texto.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/enlaces-c.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audios.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+        <section>
+            <h2 id="externos">Enlaces externos</h2>    
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in tincidunt neque. Sed eleifend hendrerit dui, in ullamcorper ex pharetra a. Nam volutpat, felis vel accumsan vehicula, quam ante auctor sapien, at consequat orci ex ut <a href="http://www.buap.mx" target="_blank">Benemerita Universidad Autonoma de Puebla</a> eros. Ut tincidunt urna sit amet consectetur feugiat. Curabitur consequat libero eu neque vehicula tempus. Nullam porta suscipit tellus, ut cursus libero. Praesent interdum augue sed volutpat semper. Curabitur condimentum lobortis sollicitudin. Suspendisse sit amet est ante. Nam at sodales elit. Etiam suscipit arcu in velit dictum malesuada. Suspendisse in ipsum leo. Etiam velit tellus, imperdiet vitae mauris sit amet, consequat placerat ex. Pellentesque.</p>
+            <p>ullam eu arcu non arcu egestas feugiat at ut libero. Morbi a ipsum sed velit accumsan consectetur. Aliquam condimentum elementum elit, sit amet suscipit erat gravida in. Nunc blandit sem urna, vitae porttitor leo blandit a. In vel enim scelerisque, interdum velit ut, ultricies justo. Aenean luctus urna nec augue pretium mollis. Sed nibh arcu, luctus eu arcu a, eleifend eleifend neque. Praesent sollicitudin venenatis suscipit. Integer orci velit, fringilla ut maximus egestas, aliquet ut nunc. Proin maximus lectus vulputate lobortis viverra. Curabitur sed mauris sed justo viverra vestibulum eget non odio. Suspendisse vitae lacus non ex malesuada porta et.</p>
+        </section>
+        <section>
+            <h2 id="internos">Enlaces internos</h2>
+            <p>ipsum dolor sit amet, consectetur adipiscing elit. Duis eu blandit risus. Sed feugiat eu orci a posuere. Morbi vel ante convallis, <a href="formatos-texto.html">Formatos de Textos</a>lobortis enim interdum, viverra magna. Aenean libero odio, tempor non lacus at, faucibus consequat lorem. Sed euismod finibus eros, at luctus elit mattis ut. Mauris gravida nisl vehicula lectus tempus, at efficitur orci scelerisque. Pellentesque semper ultricies nisi.</p>
+            <p>ullam eu arcu non arcu egestas feugiat at ut libero. Morbi a ipsum sed velit accumsan consectetur. Aliquam condimentum elementum elit, sit amet suscipit erat gravida in. Nunc blandit sem urna, vitae porttitor leo blandit a. In vel enim scelerisque, interdum velit ut, ultricies justo. Aenean luctus urna nec augue pretium mollis. Sed nibh arcu, luctus eu arcu a, eleifend eleifend neque. Praesent sollicitudin venenatis suscipit. Integer orci velit, fringilla ut maximus egestas, aliquet ut nunc. Proin maximus lectus vulputate lobortis viverra. Curabitur sed mauris sed justo viverra vestibulum eget non odio. Suspendisse vitae lacus non ex malesuada porta et.</p>
+        </section>
+        <section>
+            <h2 id="archivos">Enlaces a archivo</h2>
+            <p>Fusce pulvinar dictum mi, eget imperdiet justo laoreet eu. Vivamus ultrices erat in vehicula pharetra. Ut hendrerit leo sit amet placerat faucibus<a href="../images/Cruz%20Esparza%20Alisson%20-%20Formatos%20Texto.pdf" target="_blank">Codigo de practica formatos de texto</a>. Sed a dolor ullamcorper augue venenatis sollicitudin. Etiam dictum, nisi sed dignissim lobortis, urna turpis accumsan ex, ac congue purus eros sed est. Vestibulum at feugiat sapien. Nulla sit amet nibh nec justo feugiat aliquam in sit amet lacus. Sed tempus sagittis odio, at faucibus diam dignissim sit amet. Praesent malesuada lacus sit amet laoreet accumsan. Ut placerat.</p>
+            <p>ullam eu arcu non arcu egestas feugiat at ut libero. Morbi a ipsum sed velit accumsan consectetur. Aliquam condimentum elementum elit, sit amet suscipit erat gravida in. Nunc blandit sem urna, vitae porttitor leo blandit a. In vel enim scelerisque, interdum velit ut, ultricies justo. Aenean luctus urna nec augue pretium mollis. Sed nibh arcu, luctus eu arcu a, eleifend eleifend neque. Praesent sollicitudin venenatis suscipit. Integer orci velit, fringilla ut maximus egestas, aliquet ut nunc. Proin maximus lectus vulputate lobortis viverra. Curabitur sed mauris sed justo viverra vestibulum eget non odio. Suspendisse vitae lacus non ex malesuada porta et.</p>
+        </section>
+        <section>
+            <h2 id="descargas">Enlace a descargas</h2>
+            <p>Cras et mi rutrum magna lobortis rutrum. Morbi tortor nunc, aliquam nec diam quis, tempor volutpat orci. Morbi id facilisis orci, ullamcorper suscipit eros <a href="../images/Cruz%20Esparza%20Alisson%20-%20Formatos%20Texto.png" download>previsualizacion de pagina</a>. Integer porta ut quam ut malesuada. Proin volutpat est vitae mattis feugiat. Nunc augue diam, tempus sed bibendum a, fringilla ut mi. Suspendisse sed augue nec odio feugiat dictum. Ut in arcu risus. Proin congue, nisl vel vulputate euismod, ligula felis rutrum lorem, in euismod erat.</p>
+            <p>ullam eu arcu non arcu egestas feugiat at ut libero. Morbi a ipsum sed velit accumsan consectetur. Aliquam condimentum elementum elit, sit amet suscipit erat gravida in. Nunc blandit sem urna, vitae porttitor leo blandit a. In vel enim scelerisque, interdum velit ut, ultricies justo. Aenean luctus urna nec augue pretium mollis. Sed nibh arcu, luctus eu arcu a, eleifend eleifend neque. Praesent sollicitudin venenatis suscipit. Integer orci velit, fringilla ut maximus egestas, aliquet ut nunc. Proin maximus lectus vulputate lobortis viverra. Curabitur sed mauris sed justo viverra vestibulum eget non odio. Suspendisse vitae lacus non ex malesuada porta et.</p>
+        </section>
+        <nav>
+            <ul>
+            <li><a href="#externos">Externos</a></li>
+            <li><a href="#internos">Internos</a></li>
+            <li><a href="#archivos">Archivos</a></li>
+            <li><a href="#descargas">Descargas</a></li>
+            </ul>
+        </nav>
+        </main>
+        <footer>
+            <h6>Elaborado por Cruz Esparza Alisson</h6>
+        </footer>
+    </body>
+</html>
